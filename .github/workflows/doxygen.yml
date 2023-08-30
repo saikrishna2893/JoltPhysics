@@ -1,8 +1,9 @@
 name: Doxygen Action
 
 on:
-  push:
-    branches: [ master ]
+  workflow_dispatch:
+  # push:
+  #   branches: [ master ]
 
 # Builds and deploys doxygen documentation  
 jobs:
